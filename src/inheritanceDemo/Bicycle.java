@@ -6,8 +6,9 @@ public class Bicycle {
     protected int speed;
 
     public Bicycle(int startSpeed, int startGear) {
-        this.gear = startSpeed;
-        this.speed = startGear;
+        this.gear = startGear;
+        this.speed = startSpeed;
+
     }
 
     public void setGear(int newValue) {
@@ -15,10 +16,10 @@ public class Bicycle {
     }
 
     public void applyBreak(int decrement) {
-        this.speed = decrement;
+        this.speed -= decrement;
     }
 
     public void accelarate(int increment) {
-        this.speed = increment;
+        this.speed += increment;
     }
 }

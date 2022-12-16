@@ -1,0 +1,47 @@
+Array:
+--> collection of similar data types
+--> must assign the length --> so it can assign continuese memory;
+--> it has static memory
+--> sizable
+
+ArrayList:
+--> resizeable
+--> combined properties of Array and list
+--> Hetrogenious objects are allowed
+--> Data structure --> growable array 
+
+
+Inheritance:
+--> An object behaving as another class object
+
+****-->>> sort method is an example of method over loading
+    -->>> sort get primitive datatype or object as an argument
+
+Interface:
+--> set of rules
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Collection:
+
+--> represents group of objects --> elements 
+--> collection is framework
+
+
+Framework:
+--> Interface
+--> Classes
+--> Data structure
+
+
+collection Interface
+ --> set
+ --> list
+
+
+ set --> no duplicates allowed --> no order
+
+ list --> insertion order --> duplicates allowed
+
+

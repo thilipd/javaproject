@@ -8,5 +8,8 @@ public class App {
 
         circle.draw();
         rectangle.resize();
+
+        // GraphicObject x = new GraphicObject();
+
     }
 }

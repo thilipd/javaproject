@@ -1,0 +1,54 @@
+# Errors : 
+
+  # 3 types 
+     --> compile time error
+     --> run time error
+     --> logical error
+
+  # compile time error:
+     --> Sythentical errors
+     --> eg: writing a statement without proper syntax results compile time error
+  
+  # run time error:  
+     --> inefficiency of system to execute the statement / particular statement
+     --> eg: inability of processor to execute the statement result run time error
+    --> JVM detects run time error
+
+  # logical error:
+     --> depict flaws of the code
+     --> eg: write a wrong formula in the code
+     --> either detected in compiler or run time
+
+# Exceptions:
+     --> problem arises during the execution of program
+     --> when it occurs --> normal flow is disrupted --> terminates abnormally
+
+  # major reasons for exceptions:
+     --> user entered invalid data
+     --> file cannot be found
+     --> network connection lost 
+     --> JVM out of memory
+  
+
+  # 3 catogeries of exceptions:  
+     --> checked exceptions
+     --> un-checked exceptions
+     --> errors
+
+  # checked exceptions:
+     --> exceptions that are checked at the compilation time by compiler
+     --> called as compile time exceptions
+
+  # un-checked exceptions:   
+     --> exceptions that occur at the run time of execution
+     --> called as run time exceptions
+     --> include programming bugs, such as logic errors or improper use of an API
+     -->
+     -->
+     -->
+     -->
+     -->
+     -->
+     -->
+     -->
+

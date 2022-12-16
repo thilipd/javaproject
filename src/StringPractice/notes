@@ -1,0 +1,123 @@
+Important points 
+
+String: --> Class
+        --> non-primite data type
+        --> Class is a user defined data type
+        --> Class in java.lang package
+
+Creating string: 3 ways to create a string
+
+        --> By assinging group of character to string variable i.e using assingment operator
+
+            String s = "Hello! How are you?"; // It is also known as string literal
+            
+        --> Creating an object to a String class by allocating a memory using new operator
+
+            String s = new String("Hello!");
+        
+        --> By converting character of array into strings  
+
+String Constant Pools: 
+
+        --> Spreate block of memory where the sting objects are held by JVM 
+        --> String objects created by assingment operator is stored in string constant pools 
+
+Immutability of Strings:
+
+         --> Refere StringImmutable class page
+
+******************************************************************************************************************************************        
+String Methods:
+
+  // Comparison Methods
+
+        --> equals() --> boolean --> only compares instances of String
+        --> equalsIgnoreCase() --> boolean --> case in-sensitive
+        --> compareTo() --> number
+        --> compareToIgnoerCase() --> number --> case in-sensitive
+        --> startsWith() --> boolean --> case sensitive
+        --> startsWith(prefix, offset) --> boolean --> offset checks the substring of a string starting from the given index--> case sensitive
+        --> endsWith() --> boolean --> case sensitive
+        --> contentEqual() --> boolean --> similar to equalsTo method but compare any implementation of CharSequence --> case sensitive
+
+
+------------------------------------------------------------------------------------------------------------------------------------------ 
+  // Searching Methods
+
+        --> indexOf(character) --> return index postion of the first occurance of the character
+                               --> when no character is found will return -1
+                               --> case sensitive   
+
+        --> indexOf(character, fromIndex) --> fromIndex refers the character should be searched after the from index
+                                          --> return index postion of the first occurance of the character after the fromIndex
+                                          --> when no character is found will return -1
+                                          --> case sensitive  
+
+         --> indexOf(string) -->  return index postion of the first occurance of the string
+                             --> when no string is found will return -1
+                             --> case sensitive 
+
+         --> indexOf(string, fromIndex) --> fromIndex refers the string should be searched after the from index
+                                        --> return index postion of the first occurance of the string after the fromIndex
+                                        --> when no string is found will return -1
+                                        --> case sensitive  
+
+                                         --> indexOf(character) --> return index postion of the first occurance of the character
+                               --> when no character is found will return -1
+                               --> case sensitive  
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+        --> lastIndexOf(character) --> return index postion of the first occurance of the character from last
+                               --> when no character is found will return -1
+                               --> case sensitive   
+
+        --> lastIndexOf(character, fromIndex) --> fromIndex refers the character should be searched before the from index
+                                          --> return index postion of the first occurance of the character beforethe fromIndex
+                                          --> when no character is found will return -1
+                                          --> case sensitive  
+
+         --> lastIndexOf(string) -->  return index postion of the first occurance of the string from last index
+                             --> when no string is found will return -1
+                             --> case sensitive 
+
+         --> lastIndexOf(string, fromIndex) --> fromIndex refers the string should be searched before the from index
+                                        --> return index postion of the first occurance of the string before the fromIndex
+                                        --> when no string is found will return -1
+                                        --> case sensitive  
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+// Extraxtion Methods
+
+        -->charAt()  --> returns character in the partiular index
+                     --> if index is out of the range, index bound exeception --> error handling
+                     
+        -->substring(beginIndex) --> returns all character from the partiular index
+
+         -->substring(beginIndex, endIndex) --> returns all character from the partiular index till the end index
+                                            --> beginIndex is inclusive
+                                            --> endIndex is exclusive
+
+------------------------------------------------------------------------------------------------------------------------------------------
+                                           
+
+******************************************************************************************************************************************
+
+String Buffer:
+   
+       --> Strings are immutable 
+       --> To over come this we have a anothet class called StringBuffer
+       --> It is mutable, so the object content can be modified
+       --> default capacity is 16 characters
+       --> When string object is modified often, use string buffer
+       --> Syncronized
+
+******************************************************************************************************************************************
+
+String Builder:
+       
+       --> similar to string buffer but non Syncronized (Async);
+       
+ 
+******************************************************************************************************************************************

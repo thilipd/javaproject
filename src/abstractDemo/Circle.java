@@ -4,6 +4,7 @@ public class Circle extends GraphicObject {
 
     void draw() {
         System.out.println("draw circle");
+        System.out.println(GraphicObject.z);
 
     }
 
